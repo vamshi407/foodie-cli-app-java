@@ -15,11 +15,7 @@ To install and run the Restaurant CLI Application, follow these steps:
 
 1. **Clone the repository**
    ```bash
-<<<<<<< HEAD
    git clone https://github.com/madhusamala-dev/foodie-cli-java.git
-=======
-   git clone https://github.com/vamshi407/foodie-cli-app-java.git
->>>>>>> 4d4b49c2e801dd841bea731836114ffa82048f59
     ```
 2. **CD into the application folder**
    ```bash
@@ -53,10 +49,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 For any questions, feedback, or support, please contact:
 
-<<<<<<< HEAD
-- E-mail: hello@trainingmug.com
-- GitHub: [Your GitHub Profile](https://github.com/madhusamala-dev)
-=======
 - E-mail: chsaivamshi054@gmail.com
-- GitHub:(https://github.com/vamshi407)
->>>>>>> 4d4b49c2e801dd841bea731836114ffa82048f59
+- GitHub: (https://github.com/vamshi407)
