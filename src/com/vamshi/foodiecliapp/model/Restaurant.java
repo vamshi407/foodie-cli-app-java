@@ -28,45 +28,45 @@ public class Restaurant {
     private List<String> menu;
 
     // Getter for restaurantId
-    public String getId() {
+    public String getRestaurantId() {
         return id;
     }
 
     // Setter for restaurantId
-    public Restaurant setId(String id) {
+    public Restaurant setRestaurantId(String id) {
         this.id = id;
         return this;
     }
 
     // Getter for name
-    public String getName() {
+    public String getRestaurantName() {
         return name;
     }
 
     // Setter for name
-    public Restaurant setName(String name) {
+    public Restaurant setRestaurantName(String name) {
         this.name = name;
         return this;
     }
 
     // Getter for address
-    public String getAddress() {
+    public String getRestaurantAddress() {
         return address;
     }
 
     // Setter for address
-    public Restaurant setAddress(String address) {
+    public Restaurant setRestaurantAddress(String address) {
         this.address = address;
         return this;
     }
 
     // Getter for menu
-    public List<String> getMenu() {
+    public List<String> getRestaurantMenu() {
         return menu;
     }
 
     // Setter for menu
-    public Restaurant setMenu(List<String> menu) {
+    public Restaurant setRestaurantMenu(List<String> menu) {
         this.menu = menu;
         return this;
     }

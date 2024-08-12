@@ -36,12 +36,12 @@ public class Order {
 
 
     // Getter for orderId
-    public String getId() {
+    public String getOrderId() {
         return id;
     }
 
     // Setter for orderId
-    public Order setId(String id) {
+    public Order setOrderId(String id) {
         this.id = id;
         return this;
     }
@@ -69,12 +69,12 @@ public class Order {
     }
 
     // Getter for dishes
-    public List<Dish> getDishes() {
+    public List<Dish> getOrderDishes() {
         return dishes;
     }
 
     // Setter for dishes
-    public Order setDishes(List<Dish> dishes) {
+    public Order setOrderDishes(List<Dish> dishes) {
         this.dishes = dishes;
         return this;
     }

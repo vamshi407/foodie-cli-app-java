@@ -29,35 +29,35 @@ public class Dish {
     public Dish() {
     }
 
-    public String getId() {
+    public String getDishId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setDishId(String id) {
         this.id = id;
     }
 
-    public String getName() {
+    public String getDishName() {
         return name;
     }
 
-    public void setName(String name) {
+    public void setDishName(String name) {
         this.name = name;
     }
 
-    public String getDescription() {
+    public String getDishDescription() {
         return description;
     }
 
-    public void setDescription(String description) {
+    public void setDishDescription(String description) {
         this.description = description;
     }
 
-    public double getPrice() {
+    public double getDishPrice() {
         return price;
     }
 
-    public void setPrice(double price) {
+    public void setDishPrice(double price) {
         this.price = price;
     }
 

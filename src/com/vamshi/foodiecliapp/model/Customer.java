@@ -27,40 +27,49 @@ public class Customer {
     private String email;
     private String password;
 
+    //Constructor(No-Arg)
     public Customer() {
     }
 
-    public String getId() {
+    //Getters and Setters for fields
+
+
+    public String getCustomerId() {
         return id;
     }
 
-    public void setId(String id) {
+    public Customer setCustomerId(String id) {
         this.id = id;
+        return this;
     }
 
-    public String getName() {
+    public String getCustomerName() {
         return name;
     }
 
-    public void setName(String name) {
+    public Customer setCustomerName(String name) {
         this.name = name;
+        return this;
     }
 
-    public String getEmail() {
+    public String getCustomerEmail() {
         return email;
     }
 
-    public void setEmail(String email) {
+    public Customer setCustomerEmail(String email) {
         this.email = email;
+        return this;
     }
 
-    public String getPassword() {
+    public String getCustomerPassword() {
         return password;
     }
 
-    public void setPassword(String password) {
+    public Customer setCustomerPassword(String password) {
         this.password = password;
+        return this;
     }
+//  Overriding equals
 
     @Override
     public boolean equals(Object o) {
